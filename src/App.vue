@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router'
+
 const links = ['home', 'about', 'blogs']
 const year = new Date().getFullYear()
 </script>
