@@ -2,11 +2,11 @@
 import { ref, onMounted, type Ref } from 'vue'
 import { supabase } from '../lib/supabase'
 
-const blogs: Ref<any[] | null> = ref([])
+const blogs: Ref<any[] | undefined> = ref([])
 
 async function getCountries() {
   const { data } = await supabase.from('blogs').select()
-  blogs.value = data
+  blogs.value = data?.reverse()
 }
 
 onMounted(() => {
