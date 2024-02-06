@@ -9,11 +9,11 @@ import '@/assets/main.css'
     <h1 class="text-2xl font-semibold">Hello Cats!</h1>
     <ImageItem></ImageItem>
     <p>
-      This is my website! My name is Noah and I am a <b>developer</b>! I specialize in frontend and
-      backend development. My website has a blog and a page to know more about me. Check both of
-      them out! My tech stack is: Frontend tools, TypeScript, sqlite, c/c++, python, go, supabase
-      and linux. This website is made in vue and typescript. It uses the vue router, eslint,
-      tailwind and prettier.
+      This is my website! My name is Noah (INTP-A) and I am a <b>developer</b>! I specialize in
+      frontend and backend development. My website has a blog and a page to know more about me.
+      Check both of them out! My tech stack is: Frontend tools, TypeScript, sqlite, c/c++, python,
+      go, supabase and linux. This website is made in vue and typescript. It uses the vue router,
+      eslint, tailwind and prettier.
     </p>
     <p>
       Apart from that, these are my socials: <a href="https://twitter.com/Hash1616929">Twitter</a>,
