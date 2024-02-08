@@ -18,8 +18,8 @@ dependencies:
     specifier: ^4.2.5
     version: 4.2.5(vue@3.4.15)
   vue-timestamp-loader:
-    specifier: ^1.0.2
-    version: 1.0.2
+    specifier: ^1.1.2
+    version: 1.1.2
 
 devDependencies:
   '@rushstack/eslint-patch':
@@ -2570,8 +2570,8 @@ packages:
       he: 1.2.0
     dev: true
 
-  /vue-timestamp-loader@1.0.2:
-    resolution: {integrity: sha512-nSJ8perrUnE+IP8REMNIybr2uNL+OIHAeZukcs+zgz6V2uGTVCGmGX0jmx+OyyKJAjqR/LWBAHjyNwGi6Ac9qg==}
+  /vue-timestamp-loader@1.1.2:
+    resolution: {integrity: sha512-qAew0f313I8aSvz86rMGTTZBX5QeAH/vTTA/+eXLxakZsuHng3vZDfCIw6jjnHMaX6UBcKmbbrsj8vZDPkEZIg==}
     dev: false
 
   /vue-tsc@1.8.27(typescript@5.3.3):
