@@ -2,7 +2,6 @@
 import { RouterView } from 'vue-router'
 
 const links = ['home', 'about', 'blogs']
-const year = new Date().getFullYear()
 </script>
 
 <template>
@@ -22,8 +21,8 @@ const year = new Date().getFullYear()
     </div>
 
     <div class="absolute bottom-2 left-[30%] font-light text-sm">
-      Copyright Noah &copy; {{ year }}. This is here to make you feel intimidated and to look cool
-      in front of my friends. Hi Zemi!
+      Copyright Noah &copy; <span v-current-year></span>. This is here to make you feel intimidated
+      and to look cool in front of my friends. Hi Zemi!
     </div>
   </main>
 </template>
