@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router'
 
-const links = ['home', 'about', 'blogs']
+const links = ['home', 'about', 'socials', 'blogs']
 </script>
 
 <template>

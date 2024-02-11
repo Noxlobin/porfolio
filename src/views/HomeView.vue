@@ -32,7 +32,7 @@ import '@/assets/main.css'
         alt="TypeScript"
       />
       <BadgeItem
-        source="https://img.shields.io/badge/golang-blue?style=for-the-badge&logo=go&logoColor=ffffff"
+        source="https://img.shields.io/badge/golang-3cb5f6?style=for-the-badge&logo=go&logoColor=ffffff"
         alt="Golang"
       />
       <BadgeItem
