@@ -44,6 +44,7 @@ import '@/assets/main.css'
         alt="C"
       />
     </div>
+    <p class="text-xs">the secret is kitten</p>
   </main>
 </template>
 
