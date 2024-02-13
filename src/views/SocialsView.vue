@@ -52,6 +52,12 @@ const headingClasses = 'text-2xl font-semibold my-1'
             alt="discord"
           />
         </a>
+        <a href="https://mstdn.plus/@noahlol">
+          <BadgeItem
+            source="https://img.shields.io/badge/fediverse-purple?style=for-the-badge&logo=mastodon&logoColor=ffffff"
+            alt="fediverse"
+          />
+        </a>
       </div>
     </div>
   </main>
