@@ -18,7 +18,10 @@ onMounted(() => {
   <main>
     <div v-for="blog in blogs" :key="blog.id">
       <article class="bg-gray-200 p-3 rounded m-3">
-        <h2 class="text-lg font-semibold">{{ blog.name }}</h2>
+        <div class="flex justify-between">
+          <h2 class="text-lg font-semibold">{{ blog.name }}</h2>
+          <p class="text-sm text-gray-400">id #{{ blog.id }}</p>
+        </div>
         <p>{{ blog.body }}</p>
       </article>
     </div>
