@@ -27,6 +27,11 @@ const router = createRouter({
       path: '/kitten',
       component: () => import('../views/KittenView.vue'),
       name: 'Secret'
+    },
+    {
+      path: '/:catchAll(.*)*',
+      component: () => import('../views/FourOhFouView.vue'),
+      name: '404'
     }
   ]
 })
